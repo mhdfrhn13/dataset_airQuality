@@ -30,3 +30,8 @@ import pandas as pd
 
 url = "https://raw.githubusercontent.com/mhdfrhn13/dataset_airQuality/master/fixData_air_quality.csv"
 df = pd.read_csv(url, parse_dates=['datetime'])
+
+## Run steamlit app
+```
+streamlit run test_app.py
+```
